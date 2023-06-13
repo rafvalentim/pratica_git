@@ -18,3 +18,17 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
     return false;
   }
 }
+
+ // Update the correct score:
+ const updateScore = (winner) => {
+    if (winner === 'human') {
+      humanScore++;
+    } else if (winner === 'computer') {
+      computerScore++;
+    }
+  }
+  
+   // Update the correct Round:
+  const advanceRound = () => {
+    currentRoundNumber++;
+  }
