@@ -1,3 +1,12 @@
+const textColor = document.getElementById("title");
+textColor.onmouseover = function() {
+  textColor.style.color = "blue";
+
+textColor.onmouseleave = function() {
+  textColor.style.color = "";
+ }
+};
+
 let humanScore = 0;
 let computerScore = 0;
 let currentRoundNumber = 1;
