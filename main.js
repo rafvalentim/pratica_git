@@ -1,4 +1,5 @@
 const textColor = document.getElementById("title");
+
 textColor.onmouseover = function() {
   textColor.style.color = "blue";
 
