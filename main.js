@@ -42,3 +42,5 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
   const advanceRound = () => {
     currentRoundNumber++;
   }
+
+  console.log("oi")
